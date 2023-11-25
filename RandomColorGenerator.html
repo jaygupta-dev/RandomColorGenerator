@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <link rel="stylesheet" href="RandomColorGenerator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body onload="randomValue()">
+    <div class="container">
+        <div class="color-box">
+            <div class="color-screen"></div>
+            <div class="color-name">
+                <div class="name">#afcd34</div>
+                <div class="copy"><img id="img-copy" src="images/copy.png" alt=""></div>
+            </div>
+            
+            <div class="ref-btn">
+                <div class="refresh"><img id="img-ref" src="images/redo.png" alt=""></div>
+            </div>
+        </div>
+       
+    <div class="setbg">
+        <div onmouseover=" pasteHover()" class="img-paste">
+            <img class="paste" src="images/paste.png" alt=""/>
+        </div>
+        <div class="txt">
+            <input class="codepaste" type="text" placeholder="Enter/Paste your color code"/>
+        </div>
+        <div class="imgbutton">
+            <input class="imgbtn" type="image" src="images/background.png"/>
+        </div>
+    </div>
+    </div>
+    <script src="RandomColorGenerator.js"></script>
+</body>
+</html>

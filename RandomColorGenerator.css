@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(to right,rgb(222, 237, 237),rgb(235, 238, 238),rgb(255, 255, 255));
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.color-box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:
+     0px 0px 0px 10px rgb(209, 209, 209),
+     0px 0px 2px 20px rgb(144, 144, 144),
+     0px 0px 15px 10px rgb(225, 224, 224) inset;
+}
+.color-screen{
+    height: 70%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: #afcdea;
+}
+.color-name{
+        height: 15%;
+    width: 100%;
+    background-color: rgb(0, 255, 68);
+    background-color: rgb(74, 72, 72);
+    color: white;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 0 0 5px 0px;
+    padding-right: 5%;
+    cursor: pointer;
+}
+.ref-btn{
+    height: 15%;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background-color: white;
+}
+.refresh{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 0px 5px;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(34, 33, 33);
+}
+.setbg{
+    min-height: 40px;
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-paste{
+    width: 13%;
+    padding: 2px;
+    border: 2px solid #f2551f;
+    border-radius: 5px;
+    margin-right: 10px;
+    transform: translateX(125px);
+    cursor: pointer;
+    display: none;
+}
+.txt{
+    height: 100%;
+    width: 62%;
+    padding:2px;
+    transform: translateX(500px);
+}
+.imgbutton{
+    height: 100%;
+    width: 25%;
+    padding:2px;
+    transform: translateX(500px);
+}
+.codepaste{
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    border: none;
+    background-color: rgba(245, 245, 216, 0.768);
+    outline: none;
+    border: 2px solid #f2551f;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.txt>input::placeholder{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ .imgbtn{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #f2551f;
+    border-radius: 5px;
+}
